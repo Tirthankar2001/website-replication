@@ -1,0 +1,60 @@
+<html>
+    <head>   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="login.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="homePage">
+         <div class=mainbox>
+             <table id="tablesize">
+                 <tr>
+                     <td id="image"><img src="seds logo.png" alt="logo" style="height: 50px; width: 50px;"></td>
+                     <td id="login"><b>Login</b></td>
+                 </tr>
+                 <tr>
+                     <td class ="email"><b>Email</b></td>
+                 </tr>
+                 <tr>
+                     <td><input type="text" id="emailinputbox"></td>
+                 </tr>
+                 <tr>
+                     <td class="password"><b>Password</b> </td>
+                 </tr>
+                 <tr>
+                    <td> <input type="text" id="passwordinputbox" style=></td>
+                 </tr>
+                 <tr >
+                     <td><input type="checkbox" name="remember me" id="remember"><b>remember me</b></td>
+                     <td><div id="forgotPassword" onclick="document.getElementById('id01').style.display='block'"><b><u>forgot password?</u></b></div></td>
+                 </tr>
+                 <tr>
+                     <td><button type="submit" id="loginbutton"><b>Login</b></button></td>
+                 </tr>
+             </table>
+             <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'">&times;</span>
+                <div id="resetPassword">
+                   <b> Reset My Password.</b>
+                </div>
+                <br>
+                <div id="emailaddress">
+                    Email<br>address
+                    
+                </div>
+                <div>
+                    <input id ="modalinput" type="email">
+                </div>
+                <br>
+                <div>
+                    <button  id="sendInstructions" type="submit">send instructions</button>
+                </div>
+             </div>
+         </div>
+
+        </div>
+
+    </body>
+</html>

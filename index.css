@@ -1,0 +1,333 @@
+body{
+    background-color: #F8F6F0;
+}
+.headerContent{
+    margin-top: 0;
+}
+.headerContent div{
+    display:inline-block;
+    text-align: left;
+    height:80px;
+    top:0px;
+}
+.right-content{
+    float:right;
+    margin-right:10%;
+}
+.right-content div{
+    padding:15px;
+}
+.logo{
+    margin-left:10%;
+}
+.login{
+    position:relative;
+    margin-top: 20px;
+}
+.login a{
+    color:rgb(107, 114, 128);
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    cursor:pointer;
+    border:none;
+    text-align: center;
+    color:white;
+    font-family: Roboto;
+    font-size: 18px;
+    background: none;
+    background-color: #161E2E;
+    height:34px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.text-intro{
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+}
+.content{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: bold;
+    width: 47%;
+    position:relative;
+    left:25%;
+    right:25%;
+}
+.text-description{
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+}
+.content-minor{
+    font-family: Roboto;
+    font-size: 18px;
+    color:rgb(107, 114, 128);
+    font-weight: bold;    
+    text-align: center;
+}
+.waitlist{
+    position:relative;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+}
+input[type=input]{
+    height:34px;
+    width:270px;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 3px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+    padding: 0px 10px;
+    appearance: none;
+}
+.text-minor{
+    position:relative;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: Roboto;
+    color:rgb(107, 114, 128);
+    font-weight: bold;
+}
+.uncover-content{
+    position:relative;
+    margin-top: 15%;
+    align-items: center;
+    text-align: center;
+}
+#bold{
+    margin-bottom: 2px;
+    font-size: 34px;
+    font-family: Roboto;
+    color:#161E2E;
+    font-weight: bold;
+    width: 25%;
+    position:relative;
+    left:37.5%;
+    right:37.5%;
+}
+#minor{
+    margin-top:0px;
+    font-size: 18px;
+    font-family: Roboto;
+    color:rgb(107, 114, 128);
+    font-weight: bold;
+    width: 40%;
+    position:relative;
+    left:30%;
+    right:30%;
+}
+.feature-container{
+    position:relative;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+}
+.top div{
+    display:inline-block;
+    text-align: center;
+    background-color: rgba(93, 86, 68, 0.05);
+    border-radius: 6px;
+    margin:5px;
+}
+#feature-bold{
+    margin-bottom: 2px;
+    font-size: 34px;
+    font-family: Roboto;
+    color:#161E2E;
+    font-weight: bold;
+}
+#feature-minor{
+    margin-top:0px;
+    font-size: 18px;
+    font-family: Roboto;
+    color:rgb(107, 114, 128);
+    font-weight: bold;
+    width:40%;
+    position:relative;
+    left:30%;
+    right:30%;
+}
+.bottom{
+    text-align: center;
+    background-color: rgba(93, 86, 68, 0.05);
+    border-radius: 6px;
+    padding:1%;
+    width:78%;
+    position:relative;
+    left:10%;
+}
+.advert{
+    margin-top: 8%;
+    box-sizing: border-box;
+    background-color: rgb(22, 30, 46);
+    border-radius: 6px;
+}
+#heading{
+    white-space: pre-wrap;
+    overflow: visible;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(248, 246, 240);
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 0;
+    padding-top: 5%;
+}
+#footing{
+    margin-top: 1px;
+    white-space: pre-wrap;
+    overflow: visible;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(247, 245, 237, 0.62);
+    text-align: center;
+    line-height: 1.5;
+    position: relative;
+    width:44%;
+    left:28%;
+    right:28%;
+    padding-bottom: 5%;
+}
+.part-2{
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.part-2 div{
+    box-sizing: border-box;
+    display:inline-block;
+    background-color: rgb(248, 246, 240);
+    border-radius: 6px;
+    margin:5px;
+    width:40%;
+}
+#feature-minor1{
+    margin-top:2px;
+    font-size: 18px;
+    font-family: Roboto;
+    color:rgb(107, 114, 128);
+    font-weight: bold;
+    position:relative;
+    padding:0 5%;
+}
+#feature-bold1{
+    margin-bottom: 2px;
+    font-size: 34px;
+    font-family: Roboto;
+    color:#161E2E;
+    font-weight: bold;
+    position:relative;
+    padding: 0 5%;
+}
+.advert2{
+    margin-top: 5%;
+    position:relative;
+    align-items: center;
+    text-align: center;
+}
+.advert3{
+    position:relative;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+}
+.advert3 div{
+    background-color: rgba(93, 86, 68, 0.05);
+    border-radius: 6px;
+    display:inline-block;
+    margin:0 2%;
+    padding:2%;
+}
+.picture{
+    margin-top: 20px;
+    position:relative;
+}
+.title{
+    position:relative;
+    width:50%;
+    left:25%;
+    right:25%;
+}
+.title div{
+    margin-top:2%;
+    position:relative;
+    display:inline-block;
+}
+.symbol{
+    box-sizing: border-box;
+    height: 54px;
+    width: 54px;
+    background-color: rgba(232, 227, 214, 0.5);
+    border-radius: 40px;
+}
+.title-name{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Roboto;
+    color:#161E2E;
+}
+.pic{
+    box-sizing: border-box;
+    position: relative;
+    right:25%;
+    left:25%;
+    width:50%;
+    height:60%;
+    box-shadow: rgb(170 170 170) 2px 2px 20px 0px;
+}
+.button-invert{
+    box-sizing: border-box;
+    cursor: pointer;
+    background: none;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    user-select: none;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    border-radius: 3px;
+    transition: border-width 200ms ease 0s;
+    box-shadow: none;
+    font-size: 18px;
+    background: none;
+    height:34px;
+    border-radius: 3px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-container{
+    margin-top: 5px;
+    box-sizing: border-box;
+    background-color: rgb(22, 30, 46);
+    border-radius: 6px;
+}
+.footer-container div{
+    display: inline-block;
+}
+#footnote{
+    margin-top:1%;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(140, 145, 156);
+}
+
